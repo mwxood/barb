@@ -1,0 +1,21 @@
+@media (max-width: 901px) {
+    .top-nav {
+        flex-wrap: wrap;
+        ul {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .top-nav {
+        ul {
+            flex-wrap: wrap;
+            li {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

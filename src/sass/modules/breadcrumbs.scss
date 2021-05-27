@@ -1,0 +1,27 @@
+.breadcrumbs {
+    @extend .flex-container;
+    list-style: none;
+    margin-bottom: 36px;
+    li {
+        color: #fff;
+        font-size: 12px;
+        &:after {
+            content: "/";
+            margin: 0 5px;
+        }
+        &:last-child {
+            &:after {
+                content: "";
+                margin: 0;
+            } 
+        }
+    }
+
+    a {
+        color: #fff;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
