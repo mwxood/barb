@@ -2,6 +2,8 @@
     @extend .flex-container;
     list-style: none;
     margin-bottom: 36px;
+    position: relative;
+    z-index: 1;
     li {
         color: #fff;
         font-size: 12px;

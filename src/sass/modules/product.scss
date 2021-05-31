@@ -98,19 +98,27 @@
         margin-right: 23px;
     }
 
-    .offer {
+    .badges {
         position: absolute;
         top: 10px;
         left: 10px;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .offer {
         border-radius: 10px;
         border-bottom-left-radius: 0;
         color: #fff;
         padding: 8px;
         font-size: 16px;
         font-family: $bebas;
-
+        margin-bottom: 10px;
+        width: 100%;
+         max-width: 115px;
         &.offer-choise {
             background: #ff9600;
+           
         }
 
         &.offer-top {
@@ -121,11 +129,13 @@
 
 .product-info-holder {
     max-width: 1371px;
-    padding: 0 20px;
+    padding: 0 ;
     margin: auto;
     @extend .flex-container;
     position: relative;
     margin-bottom: 287px;
+    box-shadow: rgba(24, 26, 35, 0.78) 0px 25px 50px -12px;
+  
     .stamp {
         position: absolute;
         right: 64px;
@@ -193,6 +203,7 @@
         color: #fff;
         position: relative;
         z-index: 1;
+        max-width: 780px;
         h1 {
             font-size: 101px;
             text-transform: uppercase;

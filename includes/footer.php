@@ -8,10 +8,10 @@
 
     <div class="footer-nav-holder">
         <ul class="footer-nav">
-            <li><a href="#">Меню</a></li>
-            <li><a href="#">Нашите обекти</a></li>
-            <li><a href="#">Политика за поверителност</a></li>
-            <li><a href="#">Общи условия</a></li>
+            <li><a href="product.php">Меню</a></li>
+            <li><a href="location.php">Нашите обекти</a></li>
+            <li><a href="empty-page.php">Политика за поверителност</a></li>
+            <li><a href="empty-page.php">Общи условия</a></li>
         </ul>
     </div>
     <!--end footer-nav-holder-->

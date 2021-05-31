@@ -16,20 +16,24 @@
             <div class="prod-banner">
                <!-- <div class="prod-banner-image">
                     <img src="assets/img/prod-inner-banner.png" alt="banner" />
-                </div>-->
+                </div> -->
 
                 <div class="prod-banner-custom-image">
-                    <span class="prod-banner-image-holder">
+                    <a  href="assets/img/prod-img.jpg" class="gallery-img prod-banner-image-holder">
                         <img src="assets/img/prod-img.jpg" alt="Product" />
-                    </span>
+                    </a>
                 </div>
                 <!--end prod-image-->
                 <div class="prod-banner-text">
-                    <h1>апетитно Свинско <br> шишче</h1>
+                    <h1>апетитно Свинско  шишче</h1>
                     <span class="prod-quantity">1бр. - 150гр.</span>
                     <span class="prod-desc">
                         Апетитно, хрупкаво свинско месце, в комбинация с ароматни зеленчуци.
                         Изпечено на бавен огън за максимално блажен аромат.
+                    </span>
+                    <span class="old-price">
+                        <span class="old-price-num">10,00</span>
+                        <span class="old-currency">лв</span>
                     </span>
                     <span class="price-holder">
                         <span class="price-label price">2,20<span>лв</span></span>
@@ -76,7 +80,10 @@
                             <figure>
                                 <a class="prod-image" href="product.php">
                                     <img data-src="assets/img/prod-1.jpg" alt="Product" />
-                                    <span class="offer offer-choise">Избор на готвача</span>
+                                    <span class="badges">
+                                        <span class="offer offer-choise">Избор на готвача</span>
+                                        <span class="offer offer-choise">Избор на готвача</span>
+                                    </span>
                                 </a>
                                 <figcaption>
                                     <a href="#" class="prod-title">Цяла риба - Скумрия</a>
@@ -99,7 +106,10 @@
                             <figure>
                                 <a class="prod-image" href="product.php">
                                     <img data-src="assets/img/prod-1.jpg" alt="Product" />
-                                    <span class="offer offer-choise">Избор на готвача</span>
+                                    <span class="badges">
+                                        <span class="offer offer-choise">Избор на готвача</span>
+                                        <span class="offer offer-choise">Избор на готвача</span>
+                                    </span>
                                 </a>
                                 <figcaption>
                                     <a href="#" class="prod-title">Цяла риба - Скумрия</a>
@@ -122,7 +132,9 @@
                             <figure>
                                 <a class="prod-image" href="product.php">
                                     <img data-src="assets/img/prod-1.jpg" alt="Product" />
+                                    <span class="badges">
                                     <span class="offer offer-choise">Избор на готвача</span>
+                                    </span>
                                 </a>
                                 <figcaption>
                                     <a href="#" class="prod-title">Цяла риба - Скумрия</a>
@@ -145,7 +157,9 @@
                             <figure>
                                 <a class="prod-image" href="product.php">
                                     <img data-src="assets/img/prod-1.jpg" alt="Product" />
+                                    <span class="badges">
                                     <span class="offer offer-choise">Избор на готвача</span>
+                                    </span>
                                 </a>
                                 <figcaption>
                                     <a href="#" class="prod-title">Цяла риба - Скумрия</a>
@@ -168,7 +182,9 @@
                             <figure>
                                 <a class="prod-image" href="product.php">
                                     <img data-src="assets/img/prod-1.jpg" alt="Product" />
+                                    <span class="badges">
                                     <span class="offer offer-choise">Избор на готвача</span>
+                                    </span>
                                 </a>
                                 <figcaption>
                                     <a href="#" class="prod-title">Цяла риба - Скумрия</a>
@@ -191,7 +207,9 @@
                             <figure>
                                 <a class="prod-image" href="product.php">
                                     <img data-src="assets/img/prod-1.jpg" alt="Product" />
+                                    <span class="badges">
                                     <span class="offer offer-choise">Избор на готвача</span>
+                                    </span>
                                 </a>
                                 <figcaption>
                                     <a href="#" class="prod-title">Цяла риба - Скумрия</a>

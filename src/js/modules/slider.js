@@ -24,9 +24,7 @@ const slider = () => {
                 item.button.textContent = (numbers < 9 ? 0 + numbers : numbers);
             });
         }).mount();
-    } catch(e) {
-        console.log(e)
-    }
+    } catch(e) {}
 }; 
 
 

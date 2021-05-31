@@ -17,16 +17,6 @@
     }
 }
 
-
-@media (max-width: 1439px) {
-    .product-wrap .prod-banner-image-holder {
-        margin-left: 80px;
-    }
-    .product-wrap .prod-banner-text h1 {
-        font-size: 71px;
-    }
-}
-
 @media (max-width: 1372px) {
     .product-wrap .prod-banner-text {
         padding-left: 20px;
@@ -82,6 +72,19 @@
     }
 }
 
+@media (max-width: 1024px) {
+    .product-wrap {
+        .prod-banner-image {
+            position: static;
+            margin-top: -124px;
+        }
+
+        .prod-banner-text {
+            margin-top: -328px;
+        }
+    }
+}
+
 @media (max-width: 1021px) {
     .product-wrap {
         .prod-banner-custom-image {
@@ -116,7 +119,6 @@
         .prod-banner {
             display: flex;
             flex-wrap: wrap;
-            flex-direction: column-reverse;
             margin-bottom: 60px;
         }   
 
@@ -145,6 +147,16 @@
         }
         .info-image, .stamp {display: none;}
     }
+
+    .product-wrap .prod-banner-text {
+        margin-top: -290px; 
+    }
+
+    .product-wrap .prod-banner-text h1 {
+        font-size: 107px;
+        line-height: .8;
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -154,10 +166,33 @@
     }
 }
 
+@media (max-width: 618px) {
+    .product-wrap .prod-banner-text {
+        margin-top: -225px;
+    }
+}
+    
+
 @media (max-width: 524px) {
-    .col-custom {
-        flex: 0 0 100%;
-        max-width: 100%;
+
+    .product-wrap .prod-banner-text {
+        margin-top: -178px;
+    }
+
+    .product .prod-title {
+        font-size: 27px;
+    }
+
+    .product .prod-btn {
+        padding: 15px;
+    }
+
+    .product .prod-price {
+        font-size: 30px;
+    }
+
+    .product .prod-icon{
+        margin-right: 10px;
     }
 
     .product-info-holder {
@@ -166,6 +201,36 @@
                 line-height: 1.5;
             }
         }
+    }
+}
+
+@media (max-width: 480px) {
+    .product .prod-icon {display: none;}
+    .product .prod-title {
+        font-size: 20px;
+    }
+    .product .prod-price {
+        font-size: 25px;
+    }
+    .product-info-holder .info-description .info-list li {
+        display: flex;
+    }
+}
+
+@media (max-width: 410px) {
+    .product-wrap .prod-banner-text {
+        margin-top: -126px;
+    }
+
+    .product-wrap .prod-banner-text h1 {
+        font-size: 73px;
+    }
+}
+
+@media (max-width: 380px) {
+    .col-custom {
+        flex: 0 0 100%;
+        max-width: 100%;
     }
 }
 

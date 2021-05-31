@@ -29,6 +29,14 @@
     .input-holder {
         flex-wrap: wrap;
     }
+
+    .cart-holder .order-total-holder .total-inner .big-sum {
+        font-size: 22px;
+    }
+
+    .cart-holder .order-total-holder .total-inner {
+        align-items: center;
+    }
 }
 
 @media (max-width: 430px) {

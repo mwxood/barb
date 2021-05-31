@@ -52,18 +52,18 @@
                                 <form action="" method="post">
                                     <div class="fourm-group">
                                         <label>
-                                            <input class="input-bg" type="text" placeholder="Вашето име" required name="name" />
+                                            <input class="contact-input-bg" type="text" placeholder="Вашето име" required name="name" />
                                         </label>
                                         <label>
-                                            <input class="input-bg" type="email" placeholder="Email"  required name="email" />
+                                            <input class="contact-input-bg" type="email" placeholder="Email"  required name="email" />
                                         </label>
 
                                         <label>
-                                            <input class="input-bg" type="phone" placeholder="Телефон за контакт"  required name="phone" />
+                                            <input class="contact-input-bg" type="phone" placeholder="Телефон за контакт"  required name="phone" />
                                         </label>
                                     </div>
 
-                                    <textarea class="input-bg" name="message" placeholder="Вашето съобщение"  required></textarea>
+                                    <textarea class="contact-input-bg" name="message" placeholder="Вашето съобщение"  required></textarea>
                                     <div class="captcha-holder">
                                         <div class="captcha"></div>
                                         <input class="btn form-btn" value="Изпрати" type="submit" />

@@ -21,7 +21,7 @@
                     <span class="hamburger">
                         <span></span>
                     </span>
-                    Меню
+                   <span class="nav-text"> Меню</span>
                 </a>
                 <a href="#" class="basket-btn">
                     <span class="basket-icon"></span>
@@ -40,23 +40,24 @@
             </span>
             <span class="waiting-time ">
                 <span class="clock-icon"><img data-src="assets/img/clock-icon.png" alt="Clock icon" /></span>
-                Приблизително време за доставка 50 мин
+                Приблизително време за доставка <span class="time">50 мин</span>
             </span>
             <div class="order-holder">
 
                 <div class="order">
-                    <span class="order-img">
+                    <a href="product.php" class="order-img">
                         <img data-src="assets/img/cart-1.jpg" alt="Product image" />
-                    </span>
-                    <span class="order-name">
+                    </a>
+                    <a href="product.php" class="order-name">
                         Апетитно свинско шишче
-                    </span>
+                    </a>
 
-                    <span class="order-quantity">
-                        <span class="minus-btn">-</span>
-                        <input type="number" class="custom-number" value="1" />
-                        <span class="plus-btn">+</span>
-                    </span>
+                    <span class="price-bg">
+                        <span class="order-quantity">
+                            <span class="minus-btn">-</span>
+                            <input type="number" class="custom-number" value="1" />
+                            <span class="plus-btn">+</span>
+                        </span>
 
                     <span class="order-price-holder">
                         <span class="order-price">
@@ -67,19 +68,21 @@
                             <img data-src="assets/img/close-icon.png" alt="Clear icon" />
                         </a>
                     </span>
+                    </span>
 
 
                 </div>
                 <!--end order-->
 
                 <div class="order">
-                    <span class="order-img">
+                    <a href="product.php" class="order-img">
                         <img data-src="assets/img/cart-2.jpg" alt="Product image" />
-                    </span>
-                    <span class="order-name">
+                    </a>
+                    <a href="product.php" class="order-name">
                         Селска салата
-                    </span>
+                    </a>
 
+                    <span class="price-bg">
                     <span class="order-quantity">
                         <span class="minus-btn">-</span>
                         <input type="number" name="quantity" class="custom-number" value="1" />
@@ -95,6 +98,9 @@
                             <img data-src="assets/img/close-icon.png" alt="Clear icon" />
                         </a>
                     </span>
+                    </span>
+
+                    
                 </div>
                 <!--end order-->
 

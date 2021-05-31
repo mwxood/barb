@@ -75,6 +75,10 @@
                 margin-right: 20px;
             }
         }
+
+        .price-num, .currency, .per-item, .old-price-num, .old-currency, .price-description {
+            text-shadow:  0 0 10px rgba(0,0,0,.7);
+        }
         
         .slide-text-holder {
             max-width: inherit;
@@ -99,20 +103,30 @@
 
 
 @media (max-width: 710px) {
+    #top-slider .splide__progress {
+        bottom: 80px; 
+    }
     #top-slider  {
         .slide-text-holder {
-            margin-top: 236px;
+            margin-top: 131px;
         }
 
-        .slider-title {
+        .slider-title, .price-description {
             text-align: center;
             width: 100%;
             display: block;
+            max-width: inherit;
+        }
+
+        .old-price {
+           display: flex;
+           justify-content: center;
         }
 
         .pagination {
             left: 50%;
             right: inherit;
+            bottom: 58px;
             transform: translateX(-50%);
         }
        
@@ -161,5 +175,13 @@
                 font-size: 55px;
            }
        }
+    }
+
+    #top-slider .splide__progress {
+        bottom: 0 !important;
+    }
+
+    #top-slider .pagination {
+        bottom: -20px !important;
     }
 }
