@@ -115,12 +115,12 @@
                                     </span>
                                 </a>
                                 <figcaption>
-                                    <a href="#" class="prod-title">Цяла риба - Скумрия</a>
+                                    <a href="product.php" class="prod-title">Цяла риба - Скумрия</a>
                                     <span class="price-description">цена за 1бр.</span>
                                     <span class="prod-price">6,00лв.</span>
                                 </figcaption>
                             </figure>
-                            <a href="#" class="btn prod-btn">
+                            <a href="product.php" class="btn prod-btn">
                                 <span class="prod-icon"></span>
                                 Поръчай
                             </a>
@@ -136,12 +136,12 @@
                                     <img data-src="assets/img/prod-2.jpg" alt="Product" />
                                 </a>
                                 <figcaption>
-                                    <a href="#" class="prod-title">Цяла риба - Скумрия</a>
+                                    <a href="product.php" class="prod-title">Цяла риба - Скумрия</a>
                                     <span class="price-description">цена за 1бр.</span>
                                     <span class="prod-price">6,00лв.</span>
                                 </figcaption>
                             </figure>
-                            <a href="#" class="btn prod-btn">
+                            <a href="product.php" class="btn prod-btn">
                                 <span class="prod-icon"></span>
                                 Поръчай
                             </a>
@@ -163,12 +163,12 @@
                                     
                                 </a>
                                 <figcaption>
-                                    <a href="#" class="prod-title">Цяла риба - Скумрия</a>
+                                    <a href="product.php" class="prod-title">Цяла риба - Скумрия</a>
                                     <span class="price-description">цена за 1бр.</span>
                                     <span class="prod-price">6,00лв.</span>
                                 </figcaption>
                             </figure>
-                            <a href="#" class="btn prod-btn">
+                            <a href="product.php" class="btn prod-btn">
                                 <span class="prod-icon"></span>
                                 Поръчай
                             </a>
@@ -185,12 +185,12 @@
                                     <img data-src="assets/img/prod-4.jpg" alt="Product" />
                                 </a>
                                 <figcaption>
-                                    <a href="#" class="prod-title">Цяла риба - Скумрия</a>
+                                    <a href="product.php" class="prod-title">Цяла риба - Скумрия</a>
                                     <span class="price-description">цена за 1бр.</span>
                                     <span class="prod-price">6,00лв.</span>
                                 </figcaption>
                             </figure>
-                            <a href="#" class="btn prod-btn">
+                            <a href="product.php" class="btn prod-btn">
                                 <span class="prod-icon"></span>
                                 Поръчай
                             </a>
@@ -207,12 +207,12 @@
                                     <img data-src="assets/img/prod-5.jpg" alt="Product" />
                                 </a>
                                 <figcaption>
-                                    <a href="#" class="prod-title">Цяла риба - Скумрия</a>
+                                    <a href="product.php" class="prod-title">Цяла риба - Скумрия</a>
                                     <span class="price-description">цена за 1бр.</span>
                                     <span class="prod-price">6,00лв.</span>
                                 </figcaption>
                             </figure>
-                            <a href="#" class="btn prod-btn">
+                            <a href="product.php" class="btn prod-btn">
                                 <span class="prod-icon"></span>
                                 Поръчай
                             </a>
@@ -229,12 +229,12 @@
                                     <img data-src="assets/img/prod-6.jpg" alt="Product" />
                                 </a>
                                 <figcaption>
-                                    <a href="#" class="prod-title">Цяла риба - Скумрия</a>
+                                    <a href="product.php" class="prod-title">Цяла риба - Скумрия</a>
                                     <span class="price-description">цена за 1бр.</span>
                                     <span class="prod-price">6,00лв.</span>
                                 </figcaption>
                             </figure>
-                            <a href="#" class="btn prod-btn">
+                            <a href="product.php" class="btn prod-btn">
                                 <span class="prod-icon"></span>
                                 Поръчай
                             </a>

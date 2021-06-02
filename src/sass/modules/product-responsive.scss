@@ -54,6 +54,21 @@
                 max-width: 35px; 
             }
         }
+
+        .prod-banner-2 {
+            h1 {
+                text-shadow: 2px 2px #383838;
+            }
+            .prod-banner-custom-image {
+                display: flex;
+                justify-content: flex-end;
+                height: inherit;
+            }
+            .prod-banner-image-holder {
+                max-width: 500px;
+
+            }
+        }
     }
 }
 
@@ -79,9 +94,34 @@
             margin-top: -124px;
         }
 
-        .prod-banner-text {
-            margin-top: -328px;
+        .prod-banner-1 {
+            .prod-banner-text {
+                margin-top: -328px;
+            }
         }
+
+        .prod-banner-2 {
+            .prod-banner-custom-image {
+               position: static;
+               max-width: inherit;
+               display: block;
+            }
+            .prod-banner-image-holder { 
+                margin-top: 0;
+                width: 98%;
+                margin: auto;
+                max-width: inherit;
+                img {
+                    object-fit: cover;
+                    width: 100%;
+                }
+            }
+
+            .prod-banner-text {
+                margin-top: 60px;
+            }
+        }
+
     }
 }
 
@@ -148,9 +188,13 @@
         .info-image, .stamp {display: none;}
     }
 
-    .product-wrap .prod-banner-text {
-        margin-top: -290px; 
-    }
+    .product-wrap {
+        .prod-banner-1 {
+            .prod-banner-text {
+                margin-top: -290px; 
+            }
+        }
+    } 
 
     .product-wrap .prod-banner-text h1 {
         font-size: 107px;
@@ -167,9 +211,14 @@
 }
 
 @media (max-width: 618px) {
-    .product-wrap .prod-banner-text {
-        margin-top: -225px;
-    }
+
+    .product-wrap {
+        .prod-banner-1 {
+            .prod-banner-text {
+                margin-top: -190px; 
+            }
+        }
+    } 
 }
     
 
@@ -215,6 +264,14 @@
     .product-info-holder .info-description .info-list li {
         display: flex;
     }
+
+    .product-wrap {
+        .prod-banner-1 {
+            .prod-banner-text {
+                margin-top: -150px; 
+            }
+        }
+    } 
 }
 
 @media (max-width: 410px) {

@@ -14,16 +14,58 @@
             <!--end custom-container-->
 
             <div class="prod-banner">
-               <!-- <div class="prod-banner-image">
-                    <img src="assets/img/prod-inner-banner.png" alt="banner" />
-                </div> -->
 
-                <div class="prod-banner-custom-image">
-                    <a  href="assets/img/prod-img.jpg" class="gallery-img prod-banner-image-holder">
+                <!-- <div class="prod-banner-1">
+                 <div class="prod-banner-image">
+                    <img src="assets/img/prod-inner-banner.png" alt="banner" />
+                </div>
+                <div class="prod-banner-text">
+                    <h1>апетитно Свинско  шишче</h1>
+                    <span class="prod-quantity">1бр. - 150гр.</span>
+                    <span class="prod-desc">
+                        Апетитно, хрупкаво свинско месце, в комбинация с ароматни зеленчуци.
+                        Изпечено на бавен огън за максимално блажен аромат.
+                    </span>
+                    <span class="old-price">
+                        <span class="old-price-num">10,00</span>
+                        <span class="old-currency">лв</span>
+                    </span>
+                    <span class="price-holder">
+                        <span class="price-label price">2,20<span>лв</span></span>
+                        <span class="price-label price-desc">за брой</span>
+                    </span>
+                    <div class="btn-holder">
+                        <span class="btn-desc">Количество</span>
+                        <div class="buttons">
+                            <span class="order-quantity">
+                                <span class="minus-btn">-</span>
+                                <input type="number" class="custom-number" value="1" />
+                                <span class="plus-btn">+</span>
+                            </span>
+                            <div class="btn-wrap">
+                                <a class="btn prod-banner-btn">
+                                    <span class="prod-icon"></span>
+                                    купи сега
+                                </a>
+                                <span class="btn-desc-wrap">
+                                    <span class="btn-desc">или поръчай онлайн на:</span>
+                                    <a href="tel:0885453333">088 545 3333</a>
+                                </span>
+                            </div>
+                        </div>
+                       
+                    </div>
+                 
+                </div>
+                </div>  -->
+
+            <div class="prod-banner-2">
+            <div class="prod-banner-custom-image">
+                    <a href="assets/img/prod-img.jpg" class="gallery-img prod-banner-image-holder">
                         <img src="assets/img/prod-img.jpg" alt="Product" />
                     </a>
                 </div>
-                <!--end prod-image-->
+
                 <div class="prod-banner-text">
                     <h1>апетитно Свинско  шишче</h1>
                     <span class="prod-quantity">1бр. - 150гр.</span>
@@ -63,7 +105,8 @@
                     </div>
                     <!--end btn-holder-->
                 </div>
-                <!--end prod-banner-text-->
+               
+            </div> 
             </div>
             <!--end prod-banner-->
 
