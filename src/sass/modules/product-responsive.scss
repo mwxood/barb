@@ -274,6 +274,22 @@
     } 
 }
 
+@media (max-width: 430px) {
+    .product-wrap {
+        .buttons {
+            flex-wrap: wrap;
+        }
+
+        .order-quantity {
+            margin-bottom: 20px;
+        }
+    }
+
+    .product figcaption {
+        padding: 23px 5px;
+    }
+}
+
 @media (max-width: 410px) {
     .product-wrap .prod-banner-text {
         margin-top: -126px;

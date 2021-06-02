@@ -13,12 +13,13 @@
             </div>
             <!--end custom-container-->
 
-            <div class="prod-banner">
-
-                <div class="prod-banner-1">
-                 <div class="prod-banner-image">
-                    <img src="assets/img/prod-inner-banner.png" alt="banner" />
+            <div class="prod-banner-2">
+            <div class="prod-banner-custom-image">
+                    <a href="assets/img/prod-img.jpg" class="gallery-img prod-banner-image-holder">
+                        <img src="assets/img/prod-img.jpg" alt="Product" />
+                    </a>
                 </div>
+
                 <div class="prod-banner-text">
                     <h1>апетитно Свинско  шишче</h1>
                     <span class="prod-quantity">1бр. - 150гр.</span>
@@ -34,6 +35,7 @@
                         <span class="price-label price">2,20<span>лв</span></span>
                         <span class="price-label price-desc">за брой</span>
                     </span>
+                    <!--end prod-holder-->
                     <div class="btn-holder">
                         <span class="btn-desc">Количество</span>
                         <div class="buttons">
@@ -53,13 +55,18 @@
                                 </span>
                             </div>
                         </div>
-                       
+                        <!--end buttons-->
                     </div>
-                 
+                    <!--end btn-holder-->
                 </div>
-                </div> 
+               
+            </div> 
+            </div>
+            <!--end prod-banner-->
 
-        
+           
+
+         
 
             <div class="top-offers">
                 <div class="custom-container">

@@ -95,6 +95,12 @@
   }
 }
 
+@media (max-width: 580px) {
+  .btn {
+    letter-spacing: 3px;
+  }
+} 
+
 .overlay {
   position: fixed;
   background: rgba(0, 0, 0, .8);

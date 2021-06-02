@@ -29,7 +29,7 @@
                     </li>
                 </ul>
 
-                <a href="contact.php" class="contact-nav-btn">
+                <a href="location.php" class="contact-nav-btn">
                     <span class="nav-icons">
                         <img src="assets/img/pin.svg" alt="Objects" />
                     </span>
